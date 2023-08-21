@@ -1,13 +1,42 @@
 /* Add a background color to the header element */
+header{
+    background-color: rgb(48, 13, 48, 0.4);
+    padding:10px
 
+}
 /* Add a fun background color to the main element */
-
+main{
+    background-color: rgb(48, 13, 48, 0.0);
+}
 /* Align the h1 containing your name in the center of the header*/
-
+header{
+    text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* Put a border around your image */
+.main-image{
+    width: 500px;
+    height:auto;
+    border: 4px solid rgb(100, 48, 100);
+  }
 
 /* Change the font-family of your list */
-
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+   }
 /* Add a background color to the footer element */
+footer{
+    background-color: rgb(48, 13, 48, 0.4);
+    padding:20px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1523255971896-2c08d93dd3a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80);
+    background-size: cover;
+    padding: 10px;
+}
+body{
+    text-align: center;
+}
